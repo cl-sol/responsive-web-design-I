@@ -188,14 +188,15 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
         background-color: transparent;
         position: static;
     }
     
     .navbar nav {
         height: 5vh;
-        width: 100%;
+        width: 90%;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 3%;
@@ -248,5 +249,107 @@ footer {
         width: 200px;
         height: 150px;
         margin-left: 5%;
+    }
+
+    footer {
+        text-align: center;
+        margin: 2%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+        background-color: transparent;
+        position: static;
+    }
+    
+    .navbar nav {
+        height: 25vh;
+        width: 100%;
+        flex-direction: column;
+        line-height: 35px;
+        border-top: 1px solid grey;
+    }
+
+    .navbar nav a {
+        width: 100%;
+        height: 35px;
+        border-bottom: 1px solid grey;
+    }
+
+    header {
+        margin-top: 5%;
+    }
+
+    header h1 {
+        display: inline;
+        font-size: 50px;
+        text-align: center;
+        word-spacing: 200px;
+    }
+
+    .header-img {
+        display: none;
+        
+    }
+
+    button {
+        background-color: white;
+        margin: 5%;
+    }
+
+    hr {
+        width: 90%;
+        height: 3px;
+        background: black;
+        margin: 5%;
+    }
+
+    .TopSection {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .topsection-left {
+        width: 100%;
+        height: 30vh;
+        margin: 5% 0;
+    }
+    
+    .topsection-right {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .middle-img {
+        width: 90%;
+        margin: 10% 5%;
+    }
+
+    .BottomSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 150px;
+        margin-left: 5%;
+    }
+
+    footer {
+        text-align: center;
+        margin: 2%;
+        width: 90%;
     }
 }
