@@ -84,7 +84,7 @@ a {
 
 .logo {
 	height: 50%;
-	padding-top: 0.5%;
+    padding-top: 0.5%;
 
 }
 
@@ -181,4 +181,46 @@ p {
 footer {
 	text-align: center;
 	margin: 50px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        border: 1px solid red;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: transparent;
+    }
+    
+    .navbar nav {
+        height: 5vh;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header {
+        margin-top: 45%;
+    }
+
+    .header-img {
+        display: none;
+        
+    }
+
+    button {
+        background-color: white;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .middle-img {
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        display: none;
+    }
 }
